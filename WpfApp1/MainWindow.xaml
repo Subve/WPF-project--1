@@ -6,11 +6,28 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="900">
-    <Grid>
-        <Expander Header="Kontakt">
-            <TextBlock>
-                AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            </TextBlock>
-        </Expander>
-    </Grid>
+    <StackPanel>
+        <GroupBox Margin="15">
+            <GroupBox.Header >
+                <Bold>Ile grasz?</Bold>
+            </GroupBox.Header>
+            <StackPanel>
+            <RadioButton>1h</RadioButton>
+                <RadioButton>2h</RadioButton>
+                <RadioButton>3h</RadioButton>
+                <RadioButton>4h</RadioButton>
+        </StackPanel>
+    </GroupBox>
+    <GroupBox Margin="15">
+            <GroupBox.Header>
+                <Bold>Ile spisz?</Bold>
+            </GroupBox.Header>
+            <StackPanel>
+                <RadioButton>5h</RadioButton>
+                <RadioButton>6h</RadioButton>
+                <RadioButton>7h</RadioButton>
+                <RadioButton>Ponad 8h</RadioButton>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
 </Window>
