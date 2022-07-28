@@ -6,23 +6,11 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="900">
-    <Grid >
-        <Grid.RowDefinitions>
-
-            <RowDefinition Height="1*" MinHeight="100" MaxHeight="200"/>
-            <RowDefinition Height="3*"/>
-            
-
-
-        </Grid.RowDefinitions>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="4*"/>
-        </Grid.ColumnDefinitions>
-        <TextBlock  >MENU</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="1" Margin="0,25" >Tu jest jakis tekst</TextBlock>
-        <GridSplitter Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  Height="10" HorizontalAlignment="Stretch"  VerticalAlignment="Top"  />
-
+    <Grid>
+        <Expander Header="Kontakt">
+            <TextBlock>
+                AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            </TextBlock>
+        </Expander>
     </Grid>
 </Window>
